@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Item Example</title>
+    <style>
+        .holder {
+            display: flex;              
+            justify-content: flex-start; 
+            align-items: flex-start;    
+            height: 100vh;          
+            position: relative;         
+        }
+
+        .item-1 {
+            position: absolute;          
+            top: 50%;                   
+            left: 50%;                 
+            transform: translate(-50%, -50%); 
+        }
+
+        .item {
+            margin: 10px;               
+        }
+    </style>
+</head>
+<body>
+    <div class="holder">
+        <div class="item item-1">apple1</div>
+        <div class="item item-2">mango2</div>
+        <div class="item item-3">date3</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Signup Form</title>
+</head>
+<body>
+  <form method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label>Gender:</label><br>
+    <input type="radio" id="gender" name="gender" value="Male">
+    <label for="gender">Male</label><br>
+    <input type="radio" id="gender" name="gender" value="Female">
+    <label for="gender">Female</label><br><br>
+    <label for="cars">Car Brands:</label>
+    <select id="cars" name="cars">
+      <option value="BMW">BMW</option>
+      <option value="Audi">Audi</option>
+      <option value="Mercedes">Mercedes</option>
+    </select><br><br>
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required><br><br>
+    <label for="dob">DOB:</label>
+    <input type="date" id="dob" name="dob" required><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

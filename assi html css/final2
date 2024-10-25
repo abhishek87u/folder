@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Plans</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        header .download-buttons {
+            margin-bottom: 20px;
+        }
+
+        header .download-buttons button {
+            background-color: black;
+            color: white;
+            border: 1px solid white;
+            padding: 10px 20px;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        header .download-buttons button:hover {
+            background-color: #333;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        table {
+            width: 60%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        th, td {
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        .plan-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 50px;
+        }
+
+        .plan-card {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .plan-card h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .plan-card p {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .plan-card ul {
+            list-style-type: none;
+            margin-bottom: 20px;
+        }
+
+        .plan-card ul li {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .plan-card .badge {
+            background-color: #007bff;
+            color: white;
+            padding: 5px 10px;
+            font-size: 12px;
+            border-radius: 20px;
+            margin-right: 5px;
+        }
+
+        .plan-card button {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        .plan-card button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Introducing Premium Mini</h1>
+        <p>₹7 for 1 day. ₹25 for 1 week.</p>
+        <div class="download-buttons">
+            <button>DOWNLOAD</button>
+            <button>APPLE DOWNLOAD</button>
+        </div>
+        <button>GET 3 MONTHS FOR ₹0</button>
+    </header>
+
+    <!-- Experience the Difference Section -->
+    <section>
+        <h2>Experience the difference</h2>
+        <table>
+            <tr>
+                <th>What you get</th>
+                <th>Premium Plan</th>
+                <th>Free Plan</th>
+            </tr>
+            <tr>
+                <td>Access to all audio content</td>
+                <td>✔</td>
+                <td>✔</td>
+            </tr>
+            <tr>
+                <td>Ad-free music listening</td>
+                <td>✔</td>
+                <td>❌</td>
+            </tr>
+            <tr>
+                <td>Enhanced playlists</td>
+                <td>✔</td>
+                <td>❌</td>
+            </tr>
+            <tr>
+                <td>Download songs</td>
+                <td>✔</td>
+                <td>❌</td>
+            </tr>
+            <tr>
+                <td>Group sessions</td>
+                <td>✔</td>
+                <td>❌</td>
+            </tr>
+            <tr>
+                <td>Highest audio quality</td>
+                <td>✔</td>
+                <td>❌</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Plan Cards Section -->
+    <div class="plan-container">
+        <!-- Mini Plan -->
+        <div class="plan-card">
+            <div class="badge-container">
+                <span class="badge">One-time plans available</span>
+            </div>
+            <h3>Mini</h3>
+            <p>From ₹7/day <br> 1 account</p>
+            <ul>
+                <li>1. Ad-free music listening on mobile</li>
+                <li>2. Group Session</li>
+                <li>3. Download 30 songs on 1 mobile device</li>
+            </ul>
+            <button>VIEW PLANS</button>
+        </div>
+
+        <!-- Individual Plan -->
+        <div class="plan-card">
+            <div class="badge-container">
+                <span class="badge">3 months free</span>
+                <span class="badge">One-time plans available</span>
+            </div>
+            <h3>Individual</h3>
+            <p>₹119/month after offer period <br> 1 account</p>
+            <ul>
+                <li>1. Ad-free music listening</li>
+                <li>2. Group Session</li>
+                <li>3. Download 10k songs/device on 5 devices</li>
+            </ul>
+            <button>VIEW PLANS</button>
+        </div>
+
+        <!-- Duo Plan -->
+        <div class="plan-card">
+            <div class="badge-container">
+                <span class="badge">1 month free</span>
+                <span class="badge">One-time plans available</span>
+            </div>
+            <h3>Duo</h3>
+            <p>₹149/month after offer period <br> 2 accounts</p>
+            <ul>
+                <li>1. For couples who live together</li>
+                <li>2. Ad-free music listening on mobile</li>
+                <li>3. Group Session</li>
+                <li>4. Download 10k songs/devices, on 5 devices per account</li>
+            </ul>
+            <button>VIEW PLANS</button>
+        </div>
+
+        <!-- Family Plan -->
+        <div class="plan-card">
+            <div class="badge-container">
+                <span class="badge">1 month free</span>
+                <span class="badge">One-time plans available</span>
+            </div>
+            <h3>Family</h3>
+            <p>₹179/month after offer period <br> Up to 6 accounts</p>
+            <ul>
+                <li>1. For family who live together</li>
+                <li>2. Block explicit music</li>
+                <li>3. Ad-free music listening on mobile</li>
+                <li>4. Group Session</li>
+                <li>5. Download 10k songs/device, on 5 devices</li>
+            </ul>
+            <button>VIEW PLANS</button>
+        </div>
+    </div>
+
+</body>
+
+
+</html>
